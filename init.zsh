@@ -21,7 +21,7 @@ p6df::modules::bash::deps() {
 ######################################################################
 p6df::modules::bash::external::brew() {
 
-  brew install bash
+  p6df::modules::homebrew::cli::brew::install bash
 
   p6_return_void
 }
