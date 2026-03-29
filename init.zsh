@@ -15,11 +15,11 @@ p6df::modules::bash::deps() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::bash::external::brew()
+# Function: p6df::modules::bash::external::brews()
 #
 #>
 ######################################################################
-p6df::modules::bash::external::brew() {
+p6df::modules::bash::external::brews() {
 
   p6df::core::homebrew::cli::brew::install bash
 
