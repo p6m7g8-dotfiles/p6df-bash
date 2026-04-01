@@ -57,5 +57,5 @@ p6df::modules::bash::home::symlinks() {
 ######################################################################
 p6df::modules::bash::prompt::system() {
 
-  p6_return_words 'bash' '$BASH_VERSION'
+  p6_return_words 'bash' "$"
 }
