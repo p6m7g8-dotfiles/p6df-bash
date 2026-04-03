@@ -43,19 +43,3 @@ p6df::modules::bash::home::symlinks() {
 
   p6_return_void
 }
-
-######################################################################
-#<
-#
-# Function: words bash $BASH_VERSION = p6df::modules::bash::prompt::system()
-#
-#  Returns:
-#	words - bash $BASH_VERSION
-#
-#  Environment:	 BASH_VERSION
-#>
-######################################################################
-p6df::modules::bash::prompt::system() {
-
-  p6_return_words 'bash' "$"
-}
