@@ -1,11 +1,24 @@
 # shellcheck shell=bash
 ######################################################################
+#<
+#
+# Function: p6df::modules::bash::deps()
+#
+#>
+######################################################################
 p6df::modules::bash::deps() {
   ModuleDeps=(
     p6m7g8-dotfiles/p6common
   )
 }
 
+######################################################################
+#<
+#
+# Function: p6df::modules::bash::home::symlinks()
+#
+#  Environment:	 HOME P6_DFZ_SRC_DIR
+#>
 ######################################################################
 p6df::modules::bash::home::symlinks() {
 
@@ -17,6 +30,12 @@ p6df::modules::bash::home::symlinks() {
   p6_return_void
 }
 ######################################################################
+#<
+#
+# Function: p6df::modules::bash::external::brews()
+#
+#>
+######################################################################
 p6df::modules::bash::external::brews() {
 
   p6df::core::homebrew::cli::brew::install bash
@@ -24,22 +43,3 @@ p6df::modules::bash::external::brews() {
   p6_return_void
 }
 
-######################################################################
-#<
-#
-# Function: p6df::modules::bash::deps()
-#
-#>
-######################################################################
-#<
-#
-# Function: p6df::modules::bash::external::brews()
-#
-#>
-######################################################################
-#<
-#
-# Function: p6df::modules::bash::home::symlinks()
-#
-#  Environment:	 HOME P6_DFZ_SRC_DIR
-#>
