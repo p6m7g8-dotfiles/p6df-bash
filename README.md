@@ -36,7 +36,8 @@ TODO: Add a short summary of this module.
 ##### p6df-bash/init.zsh
 
 - `p6df::modules::bash::deps()`
-- `p6df::modules::bash::external::brew()`
+- `p6df::modules::bash::external::brews()`
+- `p6df::modules::bash::home::symlinks()`
 
 ## Hierarchy
 
